@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="@color/blue"
+        android:text="  Filtres"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+       />
+
+
+
+    <Button
+
+        android:id="@+id/filtre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:text="Restaurant"
+        android:backgroundTint="@color/jaune"
+        android:layout_margin="50dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+
+        android:id="@+id/filtre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bars"
+        android:layout_margin="50dp"
+        android:width="200dp"
+        android:backgroundTint="@color/jaune"
+
+        />
+
+    <Button
+
+        android:id="@+id/filtre3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autres"
+        android:layout_margin="50dp"
+        android:width="200dp"
+        android:backgroundTint="@color/jaune"
+
+        />
+
+    <Button
+
+        android:id="@+id/confb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="200dp"
+        android:text="Confirmer"
+        android:layout_margin="50dp"
+        android:backgroundTint="@color/jaune"
+
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
